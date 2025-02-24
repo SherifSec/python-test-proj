@@ -14,7 +14,7 @@ jobs:
       packages: write
     env:
       REGISTRY: docker.io
-      IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/${{ github.repository }}
+      IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/python-test-proj
 
     steps:
       - name: Set up QEMU
