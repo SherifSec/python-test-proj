@@ -13,7 +13,7 @@ jobs:
       attestations: write
       packages: write
     env:
-      REGISTRY: docker.io
+      REGISTRY: index.docker.io
       IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/python-test-proj
 
     steps:
